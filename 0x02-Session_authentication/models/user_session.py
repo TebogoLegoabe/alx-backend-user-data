@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-""" User session module
+"""User session module
 """
 from models.base import Base
 
 
 class UserSession(Base):
-    """User Session Class
-    """
+    """User Session Class inherits from Base class"""
 
     def __init__(self, *args: list, **kwargs: dict):
         """Constructor Method"""
